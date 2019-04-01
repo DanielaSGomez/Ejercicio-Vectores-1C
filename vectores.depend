@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1554147665 source:c:\users\dani chan\desktop\ejercicios clase 5\vectores\input.c
+	"input.h"
+	<stdio.h>
+
+1554144661 c:\users\dani chan\desktop\ejercicios clase 5\vectores\input.h
+
+1554147751 source:c:\users\dani chan\desktop\ejercicios clase 5\vectores\main.c
+	<stdio.h>
+	<stdlib.h>
+	"input.h"
+
