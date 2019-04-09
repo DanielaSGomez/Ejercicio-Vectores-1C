@@ -56,7 +56,7 @@ int main()
     while(nombreApellido[i]!='\0')
     {
 
-        if(nombreApellido[i]== ' ')//== espacio
+        if(nombreApellido[i]== ' ')//== espacio//tambien se puede usar la funcion isspace
         {
             nombreApellido[i+1]= toupper(nombreApellido[i+1]);
         }
@@ -74,6 +74,7 @@ int main()
 void pedirCadena(char mensaje[],char cadena[],int tam)//para validar que ingrese algo menor a largod el vector y que no desborde
 {
     printf("Ingrese %s",mensaje);
+    fflush(stdin);
     gets(cadena);
     validarTamCadena(mensaje,cadena,tam);
 }
@@ -82,6 +83,7 @@ void validarTamCadena(char mensajeError[],char cadena[],int tam)
     while(strlen(cadena)>tam)
     {
         printf("%s",mensajeError);
+        fflush(stdin);
         gets(cadena);
     }
 }
