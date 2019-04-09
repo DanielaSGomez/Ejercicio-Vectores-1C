@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1554775004 source:c:\users\dani chan\desktop\ejercicio-vectores-1c\ejerciciocadenasdechar\ejercicio.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1554779955 source:c:\users\dani chan\desktop\ejercicio-vectores-1c\ejerciciocadenasdechar\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ejercicio.h"
+	<string.h>
+	<ctype.h>
+
+1554774940 c:\users\dani chan\desktop\ejercicio-vectores-1c\ejerciciocadenasdechar\ejercicio.h
+
