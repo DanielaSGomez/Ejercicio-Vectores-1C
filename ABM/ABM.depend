@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1555421029 source:c:\users\alumno\desktop\clase 9\ejercicio-vectores-1c\abm\main.c
+	<stdlib.h>
+	"Empleado.h"
+
+1555423878 c:\users\alumno\desktop\clase 9\ejercicio-vectores-1c\abm\empleado.h
+	<stdio.h>
+
+1555421029 source:c:\users\alumno\desktop\clase 9\ejercicio-vectores-1c\abm\empleado.c
+	"Empleado.h"
+

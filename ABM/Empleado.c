@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 #include "Empleado.h"
 
 
@@ -91,6 +91,36 @@ void hardcodearDatosEmpleados(eEmpleado lista[], int tam)
         lista[i].sueldoNeto = sueldosBruto[i] * 0.85;
         lista[i].estado = OCUPADO;
 
+    }
+
+
+
+
+}
+
+void modificarSueldoBruto(eEmpleado lista[], int tam)//para cambiar el sueldo bruto y neto
+{
+    int i;
+    int legajo;
+    float nuevoSueldo;
+
+    printf("Ingrese numero de legajo a modificar: ");
+    scanf("%d",&legajo);
+
+    for(i=0;i<tam;i++)
+    {
+        if(legajo==lista[i].legajo)
+        {
+            printf("Ingrese el nuevo sueldo bruto: ");
+            scanf("%f",&nuevoSueldo);
+            lista[i].sueldoBruto = nuevoSueldo;//VALIDAR EL CAMBIO
+
+            lista[i].sueldoNeto = sueldoBruto*0.85;
+        }
+        else
+        {
+            printf("No existe el legajo");
+        }
     }
 
 

@@ -28,6 +28,9 @@ hardcodearDatosEmpleados(lista,4);
                 cargarEmpleado(lista,  T);
 
             break;
+            case 3:
+                modificarSueldoBruto(lista, T);
+                break;
             case 4:
                 mostrarListaEmpleados(lista, T);
                 break;

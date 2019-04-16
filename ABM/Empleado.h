@@ -16,6 +16,7 @@ typedef struct
 void mostrarEmpleado(eEmpleado);
 void cargarEmpleado(eEmpleado[], int);
 void mostrarListaEmpleados(eEmpleado[], int);
+void modificarSueldoBruto(eEmpleado[], int);
 
 int buscarLibre(eEmpleado[], int);
 void inicializarEmpleados(eEmpleado[], int);
