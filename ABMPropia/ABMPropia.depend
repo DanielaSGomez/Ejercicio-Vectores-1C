@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1555467382 source:c:\users\dani chan\desktop\ejercicio-vectores-1c\abmpropia\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleados.h"
+
+1555467462 c:\users\dani chan\desktop\ejercicio-vectores-1c\abmpropia\empleados.h
+
+1555466660 source:c:\users\dani chan\desktop\ejercicio-vectores-1c\abmpropia\empleados.c
+	<stdio.h>
+	"empleados.h"
+
