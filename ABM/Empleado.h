@@ -5,6 +5,13 @@
 
 typedef struct
 {
+    int descripcion[20];
+    int cantidadEmplados;
+
+}
+
+typedef struct
+{
     int dia;
     int mes;
     int anio;
